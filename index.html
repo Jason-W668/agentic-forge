@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Agentic Forge — Premium MCP Server & AI Skill templates for AI developers, agents, and indie founders shipping production-grade AI integrations." />
+<title>Agentic Forge — Premium MCP Server & AI Skill Templates</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #171a21;
+    --border: #262b36;
+    --text: #e6e9ef;
+    --muted: #9aa3b2;
+    --accent: #6c8cff;
+    --accent-2: #37d0a0;
+    --radius: 14px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* Nav */
+  nav {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 24px; max-width: 1080px; margin: 0 auto;
+  }
+  nav .logo { font-weight: 700; font-size: 1.2rem; letter-spacing: 0.3px; }
+  nav .logo span { color: var(--accent); }
+  nav a.nav-link { color: var(--muted); margin-left: 24px; font-size: 0.95rem; }
+
+  /* Hero */
+  header.hero { text-align: center; padding: 88px 24px 56px; }
+  header.hero h1 { font-size: 2.9rem; line-height: 1.15; font-weight: 800; letter-spacing: -0.5px; }
+  header.hero h1 .grad {
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  header.hero p.lead {
+    color: var(--muted); font-size: 1.2rem; max-width: 720px; margin: 22px auto 34px;
+  }
+  .btn {
+    display: inline-block; padding: 14px 30px; border-radius: 10px;
+    font-weight: 600; font-size: 1rem; border: none; cursor: pointer;
+  }
+  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-primary:hover { background: #7d98ff; text-decoration: none; }
+  .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); margin-left: 12px; }
+  .btn-ghost:hover { border-color: var(--accent); text-decoration: none; }
+
+  /* Sections */
+  section { padding: 60px 0; }
+  section h2 { font-size: 1.9rem; font-weight: 700; margin-bottom: 12px; }
+  section .sub { color: var(--muted); max-width: 640px; margin-bottom: 36px; }
+
+  .grid {
+    display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 26px;
+  }
+  .card h3 { font-size: 1.2rem; margin-bottom: 8px; }
+  .card p { color: var(--muted); font-size: 0.95rem; }
+  .check { color: var(--accent-2); margin-right: 6px; }
+
+  /* Pricing */
+  .pricing .grid { align-items: stretch; }
+  .price-card { display: flex; flex-direction: column; }
+  .price-card .price { font-size: 2.2rem; font-weight: 800; margin: 6px 0; }
+  .price-card .price small { font-size: 1rem; color: var(--muted); font-weight: 400; }
+  .price-card ul { list-style: none; margin: 16px 0 22px; }
+  .price-card ul li { padding: 5px 0; font-size: 0.95rem; color: var(--text); }
+  .price-card ul li .check { color: var(--accent-2); }
+  .price-card .btn { margin-top: auto; text-align: center; }
+  .featured { border: 2px solid var(--accent); }
+
+  /* Contact */
+  .cta { text-align: center; padding: 64px 24px; }
+  .cta h2 { margin-bottom: 14px; }
+  .contact-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 26px; display: inline-block;
+  }
+  .contact-card a { font-size: 1.1rem; }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--border); padding: 30px 24px; color: var(--muted);
+    text-align: center; font-size: 0.9rem;
+  }
+  footer a { color: var(--muted); margin: 0 14px; }
+  footer a:hover { color: var(--text); }
+
+  @media (max-width: 640px) {
+    header.hero h1 { font-size: 2rem; }
+    nav a.nav-link { margin-left: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Agentic<span>Forge</span></div>
+  <div>
+    <a class="nav-link" href="#products">Templates</a>
+    <a class="nav-link" href="#pricing">Pricing</a>
+    <a class="nav-link" href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1>Ship AI tools that <span class="grad">work and sell.</span></h1>
+  <p class="lead">
+    Battle-tested MCP Server &amp; AI Skill templates for developers, agents, and indie
+    founders — production-grade, documented, and ready to monetize.
+  </p>
+  <a class="btn btn-primary" href="#pricing">Browse Templates</a>
+  <a class="btn btn-ghost" href="#contact">Ask a Question</a>
+</header>
+
+<section id="products">
+  <div class="wrap">
+    <h2>What&rsquo;s included</h2>
+    <p class="sub">
+      Every template is a clean, documented foundation — not a black box. Fork it,
+      customize it, and put your name on products you actually control.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>🛠️ MCP Server Templates</h3>
+        <p>Model Context Protocol servers in TypeScript &amp; Python, pre-wired with auth, rate-limiting, structured logging, and a clean tool schema.</p>
+      </div>
+      <div class="card">
+        <h3>🧠 AI Skill Templates</h3>
+        <p>Reusable agent skills with clean SKILL.md frontmatter, guardrails, and test harnesses — ready to drop into Claude, agents, and workflows.</p>
+      </div>
+      <div class="card">
+        <h3>💳 Payment-Ready SaaS Stubs</h3>
+        <p>Stripe / Lemon Squeezy checkout stubs, a landing-page starter, and API-key issuing so you can start accepting payments on day one.</p>
+      </div>
+    </div>
+    <div class="grid" style="margin-top:22px;">
+      <div class="card">
+        <h3>✅ Clean, documented code</h3>
+        <p><span class="check">✓</span> Not a black box — read it, learn it, change it.</p>
+      </div>
+      <div class="card">
+        <h3>🧪 Tests &amp; CI-ready</h3>
+        <p><span class="check">✓</span> Test harnesses and a CI-ready structure included.</p>
+      </div>
+      <div class="card">
+        <h3>🌍 Global-ready</h3>
+        <p><span class="check">✓</span> Deployment notes for local, VPS, Docker, and serverless.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <h2>Simple, transparent pricing</h2>
+    <p class="sub">One-time purchases. Own the code. License it for your own commercial products.</p>
+    <div class="grid pricing">
+      <div class="card price-card">
+        <h3>Single Template</h3>
+        <div class="price">$19 <small>one-time</small></div>
+        <ul>
+          <li><span class="check">✓</span> One MCP or skill template</li>
+          <li><span class="check">✓</span> Full source code</li>
+          <li><span class="check">✓</span> Commercial license</li>
+          <li><span class="check">✓</span> Email support (24h)</li>
+        </ul>
+        <a class="btn btn-primary" href="#contact">Get a Template</a>
+      </div>
+      <div class="card price-card featured">
+        <h3>Starter Bundle</h3>
+        <div class="price">$49 <small>one-time</small></div>
+        <ul>
+          <li><span class="check">✓</span> 3 templates of your choice</li>
+          <li><span class="check">✓</span> Payment-ready SaaS stub</li>
+          <li><span class="check">✓</span> Landing-page starter</li>
+          <li><span class="check">✓</span> Commercial license</li>
+          <li><span class="check">✓</span> Priority email support</li>
+        </ul>
+        <a class="btn btn-primary" href="#contact">Buy Starter Bundle</a>
+      </div>
+      <div class="card price-card">
+        <h3>Full Collection</h3>
+        <div class="price">$99 <small>one-time</small></div>
+        <ul>
+          <li><span class="check">✓</span> All current templates + future updates</li>
+          <li><span class="check">✓</span> Every SaaS stub &amp; boilerplate</li>
+          <li><span class="check">✓</span> Full commercial license</li>
+          <li><span class="check">✓</span> Priority support + lifetime access</li>
+        </ul>
+        <a class="btn btn-primary" href="#contact">Buy Full Collection</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="cta">
+  <div class="wrap">
+    <h2>Ready to ship your next AI product?</h2>
+    <p class="sub" style="margin:0 auto 28px;">
+      Questions about a template, custom needs, or licensing? We reply fast.
+    </p>
+    <div class="contact-card">
+      📩 Email: <a href="mailto:wojingchen@gmail.com">wojingchen@gmail.com</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="mailto:wojingchen@gmail.com">Contact</a>
+  </p>
+  <p style="margin-top:12px;">© <span id="year"></span> Agentic Forge. All rights reserved.</p>
+  <p style="margin-top:8px;">Made by independent developers, for independent developers. 🌍</p>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
