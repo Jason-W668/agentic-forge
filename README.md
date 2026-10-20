@@ -1,24 +1,44 @@
 # ⚒️ Agentic Forge
 
-**Premium MCP Server & AI Skill templates** for AI developers, agents, and indie founders who want to ship production‑grade integrations fast — without reinventing the wheel.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Website](https://img.shields.io/badge/website-GitHub%20Pages-blue)](https://Jason-W668.github.io/agentic-forge/)
 
-> ✨ The professional, ready‑to‑customize foundation for building and monetizing AI agent tools. Made for solo developers selling globally.
+**Premium MCP Server & AI Skill templates** for AI developers, agents, and indie founders who want to ship production-grade integrations fast — without reinventing the wheel.
+
+> ✨ The professional, ready-to-customize foundation for building and monetizing AI agent tools. Made for solo developers selling globally.
+
+🌐 **Live site:** [https://Jason-W668.github.io/agentic-forge/](https://Jason-W668.github.io/agentic-forge/)
 
 ---
 
 ## 🚀 What is Agentic Forge?
 
-Agentic Forge is a collection of **battle‑tested templates** you can fork, customize, and ship:
+Agentic Forge is a collection of **battle-tested templates** you can fork, customize, and ship:
 
-- **MCP Server templates** — Model Context Protocol servers in TypeScript & Python. Pre‑wired with auth, rate‑limiting, logging, and a clean tool schema.
+- **MCP Server templates** — Model Context Protocol servers in TypeScript & Python. Pre-wired with auth, rate-limiting, logging, and a clean tool schema.
 - **AI Skill templates** — Reusable agent skills with clean SKILL.md frontmatter, guardrails, and test harnesses.
-- **SaaS boilerplate** — Stripe/Lemon Squeezy checkout stubs, landing‑page starter, and API‑key issuing so you can **start accepting payments from day one**.
+- **SaaS boilerplate** — Stripe/Lemon Squeezy checkout stubs, landing-page starter, and API-key issuing so you can **start accepting payments from day one**.
 
 Every template includes:
+
 - ✅ Clean, documented code (not a black box)
-- ✅ Tests + CI‑ready structure
+- ✅ Tests + CI-ready structure
 - ✅ Deployment notes (local, VPS, Docker, serverless)
 - ✅ Commercial license for your own products
+
+---
+
+## 💰 Pricing
+
+Simple, transparent, one-time pricing — no subscriptions:
+
+| Tier | Price | What you get |
+|---|---|---|
+| Starter | **$19** one-time | Single template of your choice |
+| Pro | **$49** one-time | Full template pack + updates |
+| Founder | **$99** one-time | Everything + SaaS boilerplate & priority support |
+
+👉 Browse and purchase on the [product website](https://Jason-W668.github.io/agentic-forge/#pricing).
 
 ---
 
@@ -26,13 +46,14 @@ Every template includes:
 
 This repository is also the **official product website** for Agentic Forge, hosted via GitHub Pages.
 
-| Page | URL (after enabling Pages) |
+| Page | URL |
 |---|---|
-| Home / Landing | `https://Jason-W668.github.io/agentic-forge/` |
-| Privacy Policy | `https://Jason-W668.github.io/agentic-forge/privacy.html` |
-| Terms of Service | `https://Jason-W668.github.io/agentic-forge/terms.html` |
+| Home / Landing | <https://Jason-W668.github.io/agentic-forge/> |
+| Privacy Policy | <https://Jason-W668.github.io/agentic-forge/privacy.html> |
+| Terms of Service | <https://Jason-W668.github.io/agentic-forge/terms.html> |
 
 ### Activate GitHub Pages
+
 1. Go to repository **Settings → Pages**.
 2. Under **Build and deployment**, choose **Source: Deploy from a branch**.
 3. Select branch **`main`** and folder **`/ (root)`**.
@@ -40,11 +61,14 @@ This repository is also the **official product website** for Agentic Forge, host
 
 ---
 
-## 📄 Page Contents
+## 📂 Repository Contents
 
-- **`index.html`** — Product landing page (description, features, pricing, contact email).
-- **`privacy.html`** — Privacy Policy.
-- **`terms.html`** — Terms of Service.
+| File | Description |
+|---|---|
+| `index.html` | Product landing page (description, features, pricing, contact email) |
+| `privacy.html` | Privacy Policy |
+| `terms.html` | Terms of Service |
+| `LICENSE` | MIT license covering the website pages in this repo |
 
 ---
 
@@ -52,7 +76,7 @@ This repository is also the **official product website** for Agentic Forge, host
 
 For any questions, support, or licensing inquiries:
 
-**Email:** `wojingchen@gmail.com`
+📩 **Email:** [wojingchen@gmail.com](mailto:wojingchen@gmail.com)
 
 ---
 
